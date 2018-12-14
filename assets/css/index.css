@@ -4,7 +4,7 @@
 }
 
 .navigation {
-  position: Fixed;
+  background-color: #141414;
   width: 100%;
   height: 150px;
 }
@@ -15,28 +15,38 @@
   background-color: #0a0a0a;
 }
 .navigation .productnavigation {
-  background-color: #141414;
+  display: flex;
+  justify-content: center;
 }
-.navigation .container {
+.navigation .navcontainer {
   width: 900px;
   height: 47px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.navigation .container .list {
+
+.navigation .navcontainer {
+  width: 900px;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation .productcontainer .list {
   margin: 15px 0px 15px 0px;
   list-style: none;
   text-decoration: none;
 }
-.navigation .container a {
+.navigation .navcontainer a {
   color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
-.navigation .container .logo {
+.navigation .navcontainer .logo {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/applelogo.svg);
@@ -46,7 +56,7 @@
   margin: 0;
 }
 
-.navigation .container .logo2 {
+.navigation .navcontainer .logo2 {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/search.svg);
@@ -54,4 +64,13 @@
   background-repeat: no-repeat;
   width: 55px;
   margin: 0;
+}
+
+.navigation .productcontainer .products {
+  list-style: none;
+  text-decoration: none;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  width: 120px;
+  margin: 10px;
 }
