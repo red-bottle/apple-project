@@ -7,15 +7,18 @@
 .navigation .menunavigation {
   background-color: #0a0a0a;
 }
-.navigation .menunavigation .container {
+.navigation .productnavigation {
+  background-color: #141414;
+}
+.navigation .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.navigation .menunavigation .container .list {
+.navigation .container .list {
   list-style: none;
 }
-.navigation .menunavigation .container a {
+.navigation .container a {
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
