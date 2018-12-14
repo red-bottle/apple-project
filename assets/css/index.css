@@ -15,14 +15,14 @@
   background-color: #0a0a0a;
 }
 .navigation .container {
-  margin: 15px 0px 15px 0px;
   width: 900px;
-  height: 30px;
+  height: 47px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .navigation .container .list {
+  margin: 15px 0px 15px 0px;
   list-style: none;
   text-decoration: none;
 }
@@ -33,11 +33,22 @@
   text-decoration: none;
 }
 
-.logo {
+.navigation .container .logo {
   list-style: none;
   text-decoration: none;
-  background-image: url(/assets/images/menunav/applelogo.jpg);
-  background-size: 40px 40px;
+  background-image: url(/assets/images/menunav/applelogo.svg);
+  background-size: 55px 55px;
   background-repeat: no-repeat;
-  width: 40px;
+  width: 55px;
+  margin: 0;
+}
+
+.navigation .container .logo2 {
+  list-style: none;
+  text-decoration: none;
+  background-image: url(/assets/images/menunav/search.svg);
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+  width: 55px;
+  margin: 0;
 }
