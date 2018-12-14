@@ -5,19 +5,24 @@
 }
 
 .navigation .menunavigation {
+  display: flex;
+  justify-content: center;
   background-color: #0a0a0a;
+  position: center 0;
 }
 .navigation .menunavigation .container {
+  width: 900px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 .navigation .menunavigation .container .list {
   list-style: none;
+  color: azure;
 }
 .navigation .menunavigation .container a {
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  margin: 3px;
+  /* margin: 10px; */
 }
