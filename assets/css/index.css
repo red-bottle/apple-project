@@ -18,7 +18,6 @@
   background-color: #141414;
 }
 .navigation .container {
-.navigation .container {
   margin: 15px 0px 15px 0px;
   width: 900px;
   height: 30px;
@@ -31,7 +30,6 @@
   text-decoration: none;
 }
 .navigation .container a {
-.navigation .menunavigation .container a {
   color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
