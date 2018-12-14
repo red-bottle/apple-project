@@ -14,6 +14,9 @@
   justify-content: center;
   background-color: #0a0a0a;
 }
+.navigation .productnavigation {
+  background-color: #141414;
+}
 .navigation .container {
   width: 900px;
   height: 47px;
@@ -26,7 +29,7 @@
   list-style: none;
   text-decoration: none;
 }
-.navigation .menunavigation .container a {
+.navigation .container a {
   color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
