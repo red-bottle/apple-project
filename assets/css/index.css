@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #141414;
 }
 
 .navigation {
@@ -15,28 +16,47 @@
   background-color: #0a0a0a;
 }
 .navigation .productnavigation {
-  background-color: #141414;
+  display: flex;
+  justify-content: center;
 }
-.navigation .container {
+.navigation .menucontainer {
   width: 900px;
   height: 47px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #0a0a0a;
 }
-.navigation .container .list {
+.navigation .productcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation .menucontainer .list {
   margin: 15px 0px 15px 0px;
   list-style: none;
   text-decoration: none;
 }
-.navigation .container a {
+.navigation .menucontainer a {
+  color: rgb(231, 228, 228);
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navigation .productcontainer .logo {
+  margin: 15px 0px 15px 0px;
+  list-style: none;
+  text-decoration: none;
+  width: ;
+}
+.navigation .productcontainer a {
   color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
-.navigation .container .logo {
+.navigation .menucontainer .logo {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/applelogo.svg);
@@ -46,7 +66,7 @@
   margin: 0;
 }
 
-.navigation .container .logo2 {
+.navigation .menucontainer .logo2 {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/search.svg);
