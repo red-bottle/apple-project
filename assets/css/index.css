@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navigation {
   position: Fixed;
   width: 100%;
@@ -8,21 +13,31 @@
   display: flex;
   justify-content: center;
   background-color: #0a0a0a;
-  position: center 0;
 }
-.navigation .menunavigation .container {
+.navigation .container {
+  margin: 15px 0px 15px 0px;
   width: 900px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.navigation .menunavigation .container .list {
+.navigation .container .list {
   list-style: none;
-  color: azure;
+  text-decoration: none;
 }
 .navigation .menunavigation .container a {
+  color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  /* margin: 10px; */
+}
+
+.logo {
+  list-style: none;
+  text-decoration: none;
+  background-image: url(/assets/images/menunav/applelogo.jpg);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  width: 40px;
 }
