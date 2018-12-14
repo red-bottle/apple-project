@@ -1,0 +1,23 @@
+.navigation {
+  position: Fixed;
+  width: 100%;
+  height: 150px;
+}
+
+.navigation .menunavigation {
+  background-color: #0a0a0a;
+}
+.navigation .menunavigation .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navigation .menunavigation .container .list {
+  list-style: none;
+}
+.navigation .menunavigation .container a {
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 3px;
+}
