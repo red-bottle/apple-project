@@ -179,10 +179,106 @@
 
 .bottom {
   margin: 0 auto;
-  max-width: 980px;
+  width: 900px;
   padding: 0 22px;
 }
 
-.bottom .footnote {
-  font-size: 1em;
+.bottom-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+}
+.bottom .bottom-wrap .footnote {
+  width: 980px;
+  display: flex;
+  font-size: 11px;
+  justify-content: flex-start;
+  margin: 0 20px;
+  padding: 20px;
+  border-bottom: darkgrey solid 1px;
+}
+
+.bottom .bottom-wrap .footnote p {
+  margin: 10px;
+  color: gray;
+}
+
+.bottom .bottom-wrap .breadcrumb {
+  padding: 17px;
+}
+
+.bottom .bottom-wrap .logo3 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  background-size: 14px 36px;
+  color: gray;
+  background-repeat: no-repeat;
+}
+
+.bottom .bottom-wrap .logo3 img {
+  margin: 8px;
+}
+
+.bottom .bottom-wrap .logo3 p {
+  margin: 8px;
+  font-family: "Muli", sans-serif;
+}
+
+.bottom .bottom-wrap .directory {
+  font-family: "Muli", sans-serif;
+  margin: 0 20px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom .bottom-wrap .directory .footernav {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.bottom .bottom-wrap .directory .footernav a {
+  text-decoration: none;
+}
+
+.bottom .bottom-wrap .directory .footernav div {
+  margin-top: 10px;
+}
+
+.bottom .bottom-wrap .directory .footernav div p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.bottom .bottom-wrap .directory .footernav div a {
+  color: grey;
+}
+
+.bottom .bottom-wrap .footer {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom .bottom-wrap .footer .shop {
+  padding: 10px;
+  width: 980px;
+  border-bottom: darkgray solid 1px;
+}
+
+.bottom .bottom-wrap .footer .legal {
+  padding: 10px;
+}
+
+.bottom .bottom-wrap .footer .shop a {
+  text-decoration: none;
 }
