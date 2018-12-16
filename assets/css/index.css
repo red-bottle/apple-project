@@ -182,3 +182,7 @@
   max-width: 980px;
   padding: 0 22px;
 }
+
+.bottom .footnote {
+  font-size: 1em;
+}
