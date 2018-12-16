@@ -176,3 +176,9 @@
   text-decoration: none;
   margin: 0;
 }
+
+.bottom {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
