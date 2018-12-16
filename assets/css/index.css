@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #141414;
 }
 
 .navigation {
-  position: Fixed;
+  background-color: #141414;
   width: 100%;
-  height: 150px;
+  height: 250px;
 }
 
 .navigation .menunavigation {
@@ -18,45 +17,35 @@
 .navigation .productnavigation {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
-.navigation .menucontainer {
+.navigation .navcontainer {
   width: 900px;
   height: 47px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #0a0a0a;
 }
-.navigation .productcontainer {
+
+.navigation .productnavigation .productcontainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  height: 100%;
+  padding-top: 20px;
 }
-.navigation .menucontainer .list {
-  margin: 15px 0px 15px 0px;
-  list-style: none;
-  text-decoration: none;
-}
-.navigation .menucontainer a {
-  color: rgb(231, 228, 228);
-  font-family: "Muli", sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-}
-.navigation .productcontainer .logo {
-  margin: 15px 0px 15px 0px;
-  list-style: none;
-  text-decoration: none;
-  width: ;
-}
-.navigation .productcontainer a {
+
+.navigation .navcontainer a {
   color: rgb(231, 228, 228);
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
-.navigation .menucontainer .logo {
+.navigation .navcontainer .logo {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/applelogo.svg);
@@ -66,12 +55,107 @@
   margin: 0;
 }
 
-.navigation .menucontainer .logo2 {
+.navigation .navcontainer .logo2 {
   list-style: none;
   text-decoration: none;
   background-image: url(/assets/images/menunav/search.svg);
   background-size: 55px 55px;
   background-repeat: no-repeat;
   width: 55px;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products {
+  display: flex;
+  /* flex-direction: column; */
+  margin: 3px 0;
+  padding: 0 4px;
+}
+
+.navigation .productnavigation .productcontainer .products .products-label {
+  font-size: 11px;
+  line-height: 1.09091;
+  font-weight: 400;
+  letter-spacing: -0.008em;
+  color: rgb(231, 228, 228);
+  font-family: "Muli", sans-serif;
+}
+
+.navigation .productnavigation .productcontainer .products .products-label-new {
+  font-size: 9px;
+  line-height: 1.22226;
+  font-weight: 400;
+  letter-spacing: -0.006em;
+  font-family: "Muli", sans-serif;
+  color: #f46c0e;
+}
+
+.navigation .productnavigation .productcontainer .products .iphonexs-icon {
+  background-size: 35px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/iphonexs_dark_large.svg);
+  width: 35px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .iphonexr-icon {
+  background-size: 21px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/iphonexr_dark_large.svg);
+  width: 21px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .iphoneeight-icon {
+  background-size: 37px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/iphone8_dark_large.svg);
+  width: 37px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .iphoneseven-icon {
+  background-size: 37px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/iphone7_dark_large.svg);
+  width: 37px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .iostwelve-icon {
+  background-size: 32px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/ios_dark_large.svg);
+  width: 32px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .airpods-icon {
+  background-size: 23px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/airpods_dark_large.svg);
+  width: 23px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navigation .productnavigation .productcontainer .products .compare-icon {
+  background-size: 50px 54px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/productnav/compare_dark_large.svg);
+  width: 50px;
+  list-style: none;
+  text-decoration: none;
   margin: 0;
 }
