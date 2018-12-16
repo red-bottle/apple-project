@@ -6,7 +6,7 @@
 .navigation {
   background-color: #141414;
   width: 100%;
-  height: 250px;
+  height: 160px;
 }
 
 .navigation .menunavigation {
@@ -34,8 +34,9 @@
 .navigation .productnavigation .productcontainer {
   display: flex;
   justify-content: space-between;
-  height: 100%;
-  padding-top: 20px;
+  flex-direction: row;
+  height: 127px;
+  padding-top: 0px;
 }
 
 .navigation .navcontainer a {
@@ -43,6 +44,10 @@
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-decoration: none;
+}
+
+.navigation .navcontainer .list {
+  margin-top: 15px;
 }
 
 .navigation .navcontainer .logo {
@@ -67,14 +72,19 @@
 
 .navigation .productnavigation .productcontainer .products {
   display: flex;
-  /* flex-direction: column; */
-  margin: 3px 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
   padding: 0 4px;
 }
 
+.navigation .productnavigation .productcontainer .products a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .navigation .productnavigation .productcontainer .products .products-label {
-  font-size: 11px;
-  line-height: 1.09091;
+  font-size: 9px;
   font-weight: 400;
   letter-spacing: -0.008em;
   color: rgb(231, 228, 228);
@@ -82,7 +92,7 @@
 }
 
 .navigation .productnavigation .productcontainer .products .products-label-new {
-  font-size: 9px;
+  font-size: 8px;
   line-height: 1.22226;
   font-weight: 400;
   letter-spacing: -0.006em;
@@ -95,6 +105,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/iphonexs_dark_large.svg);
   width: 35px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -105,6 +116,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/iphonexr_dark_large.svg);
   width: 21px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -115,6 +127,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/iphone8_dark_large.svg);
   width: 37px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -125,6 +138,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/iphone7_dark_large.svg);
   width: 37px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -135,6 +149,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/ios_dark_large.svg);
   width: 32px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -145,6 +160,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/airpods_dark_large.svg);
   width: 23px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -155,6 +171,7 @@
   background-repeat: no-repeat;
   background-image: url(/assets/images/productnav/compare_dark_large.svg);
   width: 50px;
+  height: 54px;
   list-style: none;
   text-decoration: none;
   margin: 0;
