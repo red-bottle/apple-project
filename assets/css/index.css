@@ -278,3 +278,7 @@
 .bottom .bottom-wrap .footer .legal {
   padding: 10px;
 }
+
+.bottom .bottom-wrap .footer .shop a {
+  text-decoration: none;
+}
