@@ -177,6 +177,121 @@
   margin: 0;
 }
 
+.main {
+  display: flex;
+}
+
+.hero-iphonexs {
+  display: flex;
+  background-color: #000;
+  color: #ccc;
+  width: 100%;
+  height: 700px;
+}
+
+.hero-iphonexs .iphonexs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-iphonexs .iphonexs-content .typography-logo-iphonexs {
+  width: 152px;
+  height: 70px;
+  background-size: 152px 24px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/main/iphonexs_logo_large.png);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-iphonexs .iphonexs-content .hero-icon-iphonexs {
+  width: 980px;
+  height: 253px;
+  background-size: 980px 253px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/main/hero-iphone-xs_large.jpg);
+  margin: 10px 10px;
+}
+
+.hero-iphonexr {
+  display: flex;
+  background-color: #000;
+  color: #ccc;
+  width: 100%;
+  height: 700px;
+}
+
+.hero-iphonexr .iphonexr-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-iphonexr .iphonexr-content .typography-logo-iphonexr {
+  width: 152px;
+  height: 70px;
+  background-size: 152px 24px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/main/iphonexr_logo_large.png);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-iphonexs .iphonexs-content .hero-icon-iphonexr {
+  width: 980px;
+  height: 253px;
+  background-size: 980px 253px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/main/hero-iphone-xr_large.jpg);
+  margin: 10px 10px;
+}
+
+.typography-headline {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -0.009em;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.typography-link {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 38px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.link-item {
+  font-size: 24px;
+  line-height: 1.33349;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  font-family: "Arial", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #6bf;
+}
+
 .bottom {
   margin: 0 auto;
   width: 900px;
