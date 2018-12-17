@@ -8,8 +8,8 @@ Contributed by Christian and Dheta, Impact Byte Scholarsip Awardee.
 
 ## Original
 
-[Preview of original page](./assets/images/apple_original.png)
+![Preview of original page](./assets/images/apple_original.png)
 
 ## Clone
 
-[Preview of clone page](./assets/images/apple_clone.png)
+![Preview of clone page](./assets/images/apple_clone.png)
